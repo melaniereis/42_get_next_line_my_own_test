@@ -1,10 +1,9 @@
-# README.md for 42_get_next_line_my_own_test
+# 📚 Get Next Line - My Own Test
 
-## Project Title
-**Get Next Line - My Own Test**
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![C Standard](https://img.shields.io/badge/C%20Standard-C99-yellowgreen.svg)
 
 ## Description
-This project is a personal implementation of the "Get Next Line" functionality, designed to read a line from a file descriptor. The goal is to enhance understanding of memory management and file I/O in C while providing a robust solution for reading lines from files.
+This project is a personal implementation of the **Get Next Line** functionality, designed to read a line from a file descriptor. The goal is to enhance understanding of memory management and file I/O in C while providing a robust solution for reading lines from files.
 
 ## Table of Contents
 - [Features](#features)
@@ -16,10 +15,10 @@ This project is a personal implementation of the "Get Next Line" functionality, 
 - [License](#license)
 
 ## Features
-- Reads lines from a file descriptor.
-- Handles multiple file descriptors simultaneously.
-- Efficient memory management to prevent leaks.
-- Customizable buffer size for optimal performance.
+- 📖 Reads lines from a file descriptor.
+- 🔄 Handles multiple file descriptors simultaneously.
+- 🧹 Efficient memory management to prevent leaks.
+- ⚙️ Customizable buffer size for optimal performance.
 
 ## Installation
 To get started with this project, clone the repository to your local machine using the following command:
