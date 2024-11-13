@@ -26,7 +26,7 @@ To get started with this project, clone the repository to your local machine usi
 
 ```bash
 git clone git@github.com:melaniereis/42_get_next_line_my_own_test.git
-`
+
 Then navigate into the project directory:
 ```bash
 cd 42_get_next_line_my_own_test
