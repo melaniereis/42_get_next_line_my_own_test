@@ -24,7 +24,7 @@ This project is a personal implementation of the "Get Next Line" functionality, 
 ## Installation
 To get started with this project, clone the repository to your local machine using the following command:
 
-bash
+```bash
 git clone git@github.com:melaniereis/42_get_next_line_my_own_test.git
 
 Then navigate into the project directory:
