@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../incs_bonus/get_next_line_bonus.h"
+#include "../get_next_line_bonus.h"
 #include "ansi.h"
 #include <fcntl.h>
 #include <stdio.h>
