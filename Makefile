@@ -124,36 +124,6 @@ test_compare:
 	done
 	@${RM} ${COMPARE_NAME}
 	
-##  GNL_tester  ##
-
-gnlTester: deps $(EXEC) get_gnlTester		## Run gnlTester
-	tmux split-window -h "$(MAKE) $(GNLTESTER_PATH) a"
-	tmux set-option remain-on-exit on
-
-get_gnlTester:
-	@echo "* $(CYA)Getting gnlTester submodule$(D)]"
-	@if test ! -d "$(GNLTESTER_PATH)"; then \
-		git clone git@github.com:Tripouille/gnlTester.git $(GNLTESTER_PATH); \
-		echo "* $(GRN)gnlTester download$(D): $(_SUCCESS)"; \
-	else \
-		echo "* $(GRN)gnlTester already exists 🖔"; \
-		echo " $(RED)$(D) [$(GRN)Nothing to be done!$(D)]"; \
-	fi
-
-gnl-station-tester: deps $(EXEC) get_gnlStationTester			## Run gnl-station-tester
-	tmux split-window -h "$(MAKE) $(GNL_STATION_TESTER_PATH)"
-	tmux set-option remain-on-exit on
-
-get_gnlStationTester:
-	@echo "* $(CYA)Getting gnlStationTester submodule$(D)]"
-	@if test ! -d "$(GNL_STATION_TESTER_PATH)"; then \
-		git clone git@github.com:kodpe/gnl-station-tester.git $(GNL_STATION_TESTER_PATH); \
-		echo "* $(GRN)gnl-station-tester download$(D): $(_SUCCESS)"; \
-	else \
-		echo "* $(GRN)gnl-station-tester already exists 🖔"; \
-		echo " $(RED)$(D) [$(GRN)Running tester!$(D)]"; \
-	fi
-	
 ##  Valgrind tests ##
 
 test_valgrind:
